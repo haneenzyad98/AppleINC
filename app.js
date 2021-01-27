@@ -14,5 +14,6 @@ if (yourAge <= 13) {
 } else {
     massage = 'Ok';
 }
+confirm("look in the bottom");
 document.write('<h1>' + massage + '<h1>');
 
