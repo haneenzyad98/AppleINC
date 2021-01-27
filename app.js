@@ -3,7 +3,7 @@ alert('Hello in Appel')
 var yourname = prompt('whats you name?');
 alert('hello ' + yourname);
 
-var yourAge = prompt('put your age hear');
+var yourAge = prompt('put your age here');
 console.log * (yourAge);
 
 
