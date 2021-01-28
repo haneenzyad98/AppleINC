@@ -17,3 +17,26 @@ if (yourAge <= 13) {
 confirm("look in the bottom");
 document.write('<h1>' + massage + '<h1>');
 
+var Choose = prompt('what you need laptop or phone?');
+
+while (Choose !== 'laptop' && Choose !== 'phone') {
+    Choose = prompt('please choose one of this.')
+}
+
+
+var imge = '';
+if (Choose === 'laptop') {
+    imge = '<img src ="imge/lab.png" />';
+} else if (Choose === 'phone') {
+    imge = '<img src ="imge/phon.jpg" />';
+
+}
+var result = '';
+
+var num = prompt('how many Device do you want')
+for (var i = 0; i < num; i++) {
+
+    result = result + imge;
+}
+document.write(result);
+
